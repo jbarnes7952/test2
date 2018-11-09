@@ -7,7 +7,7 @@ terraform {
 data "terraform_remote_state" "tls_private_key" {
 	  backend = "atlas"
 		config {
-			    name = "jb-testing-test3"
+			    name = "jb-testing/test3"
 					  
 		}
 
