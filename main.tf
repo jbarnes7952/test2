@@ -17,7 +17,7 @@ provider "acme" {
 }
 
 resource "acme_registration" "reg" {
-  account_key_pem = "${data.terraform_remote_state.tls_private_key.private_key_pem}"
+  account_key_pem = "${data.terraform_remote_state.tls_private_key.tls_private_key_pem}"
 	email_address   = "jbarnes7952@gmail.com"
 }
 
