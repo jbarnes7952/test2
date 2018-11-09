@@ -21,3 +21,6 @@ resource "acme_registration" "reg" {
 	email_address   = "jbarnes7952@gmail.com"
 }
 
+resource "null_resource" "test" {
+
+}
